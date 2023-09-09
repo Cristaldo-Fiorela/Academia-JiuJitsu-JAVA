@@ -1,9 +1,12 @@
-import { useState } from 'react'
+import Header from "./assets/components/Header";
+import Footer from "./assets/components/Footer";
 
 function App() {
   return (
     <>
-      <h1>Proyecto JAVA</h1>
+      <Header />
+        <h1>Proyecto JAVA</h1>
+      <Footer />
     </>
   )
 }
