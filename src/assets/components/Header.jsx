@@ -1,8 +1,14 @@
+import React from 'react';
+import { useState } from 'react';
+
+// ICONS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldCat, faBars, faXmark} from '@fortawesome/free-solid-svg-icons';
 import { faCircleUser } from '@fortawesome/free-regular-svg-icons';
 
 function Header() {
+    const [open, setOpen] = useState(false);
+
     return (
         <header class="flex flex-wrap h-screen">
         <section class="relative mx-auto">
@@ -36,15 +42,15 @@ function Header() {
                 </div>
                 </div>
                 {/* <!-- Responsive navbar --> */}
-                    <a class="navbar-burger self-center mr-12 xl:hidden" href="#">
+                    <button class="navbar-burger self-center mr-12 xl:hidden" onClick={() => setOpen(true)}>
                         <FontAwesomeIcon icon={faBars} className='h-6 w-6 hover:text-gray-200' />
-                    </a>
-                    <div className=' bg-gray-600/50 min-h-screen w-full fixed top-0 left-0 backdrop-blur-sm'></div>
+                    </button>
+                    <div className={`${!open && 'hidden'} bg-gray-600/50 min-h-screen w-full fixed top-0 left-0 backdrop-blur-sm`} onClick={() => setOpen(false)}></div>
 
-                    <div className='bg-cyan-600 min-h-screen w-80 fixed top-0 right-0'>
-                        <div className='pt-3'>
-                            <button className='ml-4 mb-10 text-white cursor-pointer'>
-                                <FontAwesomeIcon icon={faXmark} />
+                    <div className={`${open ? 'w-80' : 'w-0'} bg-cyan-600 min-h-screen w-80 fixed top-0 right-0 transition-all duration-300`}>
+                        <div className={`${!open && 'hidden'} pt-3`}>
+                            <button className='ml-4 mb-10 text-white cursor-pointer' onClick={() => setOpen(false)}>
+                                <FontAwesomeIcon icon={faXmark} className='h-6 w-6 hover:text-gray-200'/>
                             </button>
                             <div>
                                 <ul class="px-4 mx-auto font-semibold flex-col text-2xl">
