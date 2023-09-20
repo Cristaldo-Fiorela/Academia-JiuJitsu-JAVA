@@ -49,7 +49,7 @@ function Header() {
                     <button className="navbar-burger self-center mr-12 xl:hidden" onClick={() => setOpen(true)}>
                         <FontAwesomeIcon icon={faBars} className='h-6 w-6 hover:text-gray-200' />
                     </button>
-                    {open && <SideBar /> }
+                    {open && <SideBar open={open} setOpen={setOpen}/>}
                 </nav>
             </section>
         </header>
