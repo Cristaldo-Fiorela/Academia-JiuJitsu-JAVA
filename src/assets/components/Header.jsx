@@ -35,7 +35,7 @@ function Header() {
                         <li><a className="hover:text-gray-200" href="#">Contacto</a></li>
                     </ul>
 
-                    <div className="hidden xl:flex items-center space-x-5 items-center">
+                    <div className="hidden xl:flex space-x-5 items-center">
                     {/* <!-- Sign In / Register      --> */}
                     <a className="flex items-center hover:text-gray-200" href="#">
                         <FontAwesomeIcon icon={faCircleUser} className='h-6 w-6 hover:text-gray-200'/>
