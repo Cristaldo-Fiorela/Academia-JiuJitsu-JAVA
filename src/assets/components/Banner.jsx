@@ -27,25 +27,3 @@ function Banner() {
     }
 
 export default Banner
-
-/*
-    colores
-
-    negros
-
-    bg-zinc-950	
-    bg-zinc-900
-    bg-zinc-800
-
-    gris
-    bg-zinc-700
-
-    verde
-    bg-emerald-400
-
-    degrade?
-    bg-teal-400
-
-    blanco 
-    text-slate-200
-*/ 
