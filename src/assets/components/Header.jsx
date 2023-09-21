@@ -17,35 +17,33 @@ function Header() {
             <section className='w-full'>
                 <nav className="flex justify-between bg-zinc-950 text-white">
                     <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-                    <a className="text-3xl font-bold font-heading" href="#">
-                        <h1>
-                            Felino&nbsp;
-                            <FontAwesomeIcon icon={faShieldCat} />
-                            &nbsp;Warriors
-                        </h1>        
-                    </a>
+                        <a className="text-xl lg:text-3xl font-bold font-heading" href="#">
+                            <h1>
+                                Felino&nbsp;
+                                <FontAwesomeIcon icon={faShieldCat} />
+                                &nbsp;Warriors
+                            </h1>        
+                        </a>
 
-                    {/* <!-- Nav Links --> */}
+                        <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                            <li><a className="hover:text-gray-200" href="#">Inicio</a></li>
+                            <li><a className="hover:text-gray-200" href="#sobreNosotros">Sobre Nosotros</a></li>
+                            <li><a className="hover:text-gray-200" href="#profesores">Profesores</a></li>
+                            <li><a className="hover:text-gray-200" href="#">Noticias</a></li>
+                            <li><a className="hover:text-gray-200" href="#">Contacto</a></li>
+                        </ul>
 
-                    <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-                        <li><a className="hover:text-gray-200" href="#">Inicio</a></li>
-                        <li><a className="hover:text-gray-200" href="#">Sobre Nosotros</a></li>
-                        <li><a className="hover:text-gray-200" href="#">Profesores</a></li>
-                        <li><a className="hover:text-gray-200" href="#">Noticias</a></li>
-                        <li><a className="hover:text-gray-200" href="#">Contacto</a></li>
-                    </ul>
+                        <div className="hidden xl:flex space-x-5 items-center">
+                        {/* <!-- Sign In / Register      --> */}
+                        <a className="flex items-center hover:text-gray-200" href="#">
+                            <FontAwesomeIcon icon={faCircleUser} className='h-6 w-6 hover:text-gray-200'/>
+                        </a>
 
-                    <div className="hidden xl:flex space-x-5 items-center">
-                    {/* <!-- Sign In / Register      --> */}
-                    <a className="flex items-center hover:text-gray-200" href="#">
-                        <FontAwesomeIcon icon={faCircleUser} className='h-6 w-6 hover:text-gray-200'/>
-                    </a>
-
-                    </div>
+                        </div>
                     </div>
 
                     {/* <!-- Responsive navbar --> */}
-                    <button className="navbar-burger self-center mr-12 xl:hidden" onClick={() => setOpen(true)}>
+                    <button className="navbar-burger self-center left-0 mr-5 md:mr-12 xl:hidden" onClick={() => setOpen(true)}>
                         <FontAwesomeIcon icon={faBars} className='h-6 w-6 hover:text-gray-200' />
                     </button>
                     {open && <SideBar open={open} setOpen={setOpen} />}
