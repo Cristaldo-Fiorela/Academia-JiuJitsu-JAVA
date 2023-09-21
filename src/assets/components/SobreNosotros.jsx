@@ -5,7 +5,7 @@ function SobreNosotros() {
     return (
         <>
             <section className='text-white flex flex-col items-center bg-zinc-900 py-10'>
-                <h3 className="text-4xl font-bold">Sobre Nosotros</h3>
+                <h3 className="text-4xl font-bold uppercase">Sobre Nosotros</h3>
 
                 <div className='flex flex-wrap justify-center gap-16 py-10'>
                     <section className='flex flex-col text-xl w-96 justify-center gap-3'>

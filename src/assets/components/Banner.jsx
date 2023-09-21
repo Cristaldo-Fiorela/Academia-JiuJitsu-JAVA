@@ -17,8 +17,8 @@ function Banner() {
                     </h2>
                     <h3 className='text-2xl py-10'>Accede a nuestro contenido privado para alumnos y profesores.</h3>
                     <div className='flex justify-start gap-10     text-zinc-950 font-bold'>
-                        <button className="        bg-emerald-400 py-3 px-5 rounded-lg hover:bg-green-400 active:translate-y-1">Inicia Sesión</button>
-                        <button className="        bg-emerald-400 py-3 px-5 rounded-lg hover:bg-green-400 active:translate-y-1">Registrate</button>                    </div>
+                        <button className="bg-emerald-400 py-3 px-5 rounded-lg hover:bg-green-400 active:translate-y-1">Inicia Sesión</button>
+                        <button className="bg-emerald-400 py-3 px-5 rounded-lg hover:bg-green-400 active:translate-y-1">Registrate</button>                    </div>
                 </section>
 
             </section>
