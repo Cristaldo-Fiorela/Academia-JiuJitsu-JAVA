@@ -9,7 +9,7 @@ const SideBar = (props) => {
         <>
             <div className={`${!open && 'hidden'} bg-gray-600/50 min-h-screen w-full fixed top-0 left-0 backdrop-blur-sm`} onClick={() => setOpen(false)}></div>
 
-            <aside className={`${open ? 'w-80' : 'w-0'} bg-cyan-600 min-h-screen w-80 fixed top-0 right-0 transition-all duration-300`}>
+            <aside className={`${open ? 'w-80' : 'w-0'} bg-emerald-700 min-h-screen w-80 fixed top-0 right-0 transition-all duration-300`}>
                 <div className={`${!open && 'hidden'} pt-3`}>
                     <button className='ml-4 mb-10 text-white cursor-pointer' onClick={() => setOpen(false)}>
                         <FontAwesomeIcon icon={faXmark} className='h-6 w-6 hover:text-gray-200'/>
