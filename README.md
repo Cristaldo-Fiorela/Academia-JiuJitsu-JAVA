@@ -13,7 +13,7 @@
     
 -   **Java**: Lógica de backend está desarrollada en Java, garantizando un rendimiento sólido y una gestión eficiente de datos. (**en proceso...**)
   
--   - **Tailwind CSS**: Empleado como marco de diseño para una fácil y rápida estilización de la aplicación.
+-  **Tailwind CSS**: Empleado como marco de diseño para una fácil y rápida estilización de la aplicación.
 
 
 
