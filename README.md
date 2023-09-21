@@ -12,6 +12,9 @@
 -   **React**: creacion de una interfaz de usuario interactiva y atractiva.
     
 -   **Java**: Lógica de backend está desarrollada en Java, garantizando un rendimiento sólido y una gestión eficiente de datos. (**en proceso...**)
+  
+-   - **Tailwind CSS**: Empleado como marco de diseño para una fácil y rápida estilización de la aplicación.
+
 
 
 ## Requisitos Previos para instalar el proyecto
