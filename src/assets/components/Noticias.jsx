@@ -1,4 +1,4 @@
-function Header() {
+function Noticias() {
     return (
         <>
         <h1>Esto es un noticias</h1>
@@ -6,4 +6,4 @@ function Header() {
     )
     }
 
-export default Header
+export default Noticias

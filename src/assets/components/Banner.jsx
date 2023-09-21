@@ -1,9 +1,15 @@
-function Header() {
+function Banner() {
     return (
         <>
-        <h1>Esto es un banner</h1>
+            <section>
+                <h2>Accede a nuestro contenido privado para alumnos y profesores</h2>
+                <div>
+                    <button>Inicia Sesion</button>
+                    <button>Registrate</button>
+                </div>
+            </section>
         </>
     )
     }
 
-export default Header
+export default Banner

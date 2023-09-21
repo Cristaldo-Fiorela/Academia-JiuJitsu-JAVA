@@ -1,4 +1,4 @@
-function Header() {
+function Profesores() {
     return (
         <>
         <h1>Esto es una seccion de profesores</h1>
@@ -6,4 +6,4 @@ function Header() {
     )
     }
 
-export default Header
+export default Profesores
