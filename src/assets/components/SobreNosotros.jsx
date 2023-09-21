@@ -17,8 +17,8 @@ function SobreNosotros() {
                     <img src={ BJJUnion } alt="hombres en combate de BJJ" className='w-72 rounded-lg filter drop-shadow-xl saturate-50 hover:saturate-100 transition duration-300' />
                 </div>
             </section>
-            <div class="transform h-20 -skew-y-2 origin-bottom-left inset-0 bg-zinc-900">
-            </div>
+            {/* <div class="transform h-20 -skew-y-2 origin-bottom-left inset-0 bg-zinc-900">
+            </div> */}
         </>
     )
     }
