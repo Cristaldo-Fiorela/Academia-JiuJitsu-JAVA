@@ -25,7 +25,7 @@ function Header() {
                             </h1>        
                         </a>
 
-                        <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                        <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading gap-4 lg:text-lg">
                             <li><a className="hover:text-gray-200" href="#">Inicio</a></li>
                             <li><a className="hover:text-gray-200" href="#sobreNosotros">Sobre Nosotros</a></li>
                             <li><a className="hover:text-gray-200" href="#profesores">Profesores</a></li>
@@ -33,17 +33,16 @@ function Header() {
                             <li><a className="hover:text-gray-200" href="#">Contacto</a></li>
                         </ul>
 
-                        <div className="hidden xl:flex space-x-5 items-center">
-                        {/* <!-- Sign In / Register      --> */}
-                        <a className="flex items-center hover:text-gray-200" href="#">
-                            <FontAwesomeIcon icon={faCircleUser} className='h-6 w-6 hover:text-gray-200'/>
-                        </a>
-
+                        <div className="hidden md:flex space-x-5 items-center">
+                            {/* <!-- Sign In / Register      --> */}
+                            <a className="flex items-center hover:text-gray-200 md:mr-10" href="#">
+                                <FontAwesomeIcon icon={faCircleUser} className='h-6 w-6 hover:text-gray-200'/>
+                            </a>
                         </div>
                     </div>
 
                     {/* <!-- Responsive navbar --> */}
-                    <button className="navbar-burger self-center left-0 mr-5 md:mr-12 xl:hidden" onClick={() => setOpen(true)}>
+                    <button className="navbar-burger self-center left-0 mr-5 md:mr-12 md:hidden xl:hidden" onClick={() => setOpen(true)}>
                         <FontAwesomeIcon icon={faBars} className='h-6 w-6 hover:text-gray-200' />
                     </button>
                     {open && <SideBar open={open} setOpen={setOpen} />}
