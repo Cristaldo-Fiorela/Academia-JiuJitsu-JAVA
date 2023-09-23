@@ -5,8 +5,8 @@ function Footer() {
     return (
         <>
             <footer className='bg-emerald-400'>
-                <section className='py-10 flex flex-col justify-around items-center h-96'>
-                    <h2 className='text-2xl lg:text-4xl font-bold uppercase'>Unete a nuestra comunidad!</h2>
+                <section className='py-10 flex flex-col justify-around items-center h-96 w-full'>
+                    <h2 className='text-2xl lg:text-4xl font-bold uppercase text-center'>Unete a nuestra comunidad!</h2>
                     <form className='bg-slate-200 h-60 w-72 mt-5 rounded-lg flex flex-wrap justify-center items-center'>
                         <div className='flex w-full justify-around'>
                             <label htmlFor="nombre" className='font-bold'>Nombre:</label>
@@ -22,9 +22,9 @@ function Footer() {
                         </div>
                     </form>
                 </section>
-                <section>
-                    <FontAwesomeIcon icon={faShieldCat} />
-                    <h3>Hecho por Cristaldo Fiorela</h3>
+                <section className='bg-zinc-800 h-30 flex justify-evenly items-center py-2'>
+                    <FontAwesomeIcon icon={faShieldCat} className='text-emerald-400 h-8' />
+                    <h3 className='font-semibold text-slate-200'>Hecho por Cristaldo Fiorela</h3>
                 </section>
             </footer>
         </>
