@@ -4,9 +4,9 @@ import { faShieldCat } from '@fortawesome/free-solid-svg-icons';
 function Footer() {
     return (
         <>
-            <footer>
-                <section>
-                    <h2>Unete a nuestra comunidad!</h2>
+            <footer className='bg-emerald-400'>
+                <section className='py-10 flex flex-col justify-around items-center h-96'>
+                    <h2 className='text-2xl lg:text-4xl font-bold uppercase'>Unete a nuestra comunidad!</h2>
                     <form>
                         <div>
                             <label htmlFor="nombre">Nombre:</label>
@@ -24,9 +24,7 @@ function Footer() {
                 </section>
                 <section>
                     <FontAwesomeIcon icon={faShieldCat} />
-
                     <h2> Hecho por Cristaldo Fiorela</h2>
-
                 </section>
             </footer>
         </>
