@@ -26,11 +26,11 @@ function Header() {
                         </a>
 
                         <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading gap-4 lg:text-lg">
-                            <li><a className="hover:text-gray-200" href="#">Inicio</a></li>
-                            <li><a className="hover:text-gray-200" href="#sobreNosotros">Sobre Nosotros</a></li>
-                            <li><a className="hover:text-gray-200" href="#profesores">Profesores</a></li>
-                            <li><a className="hover:text-gray-200" href="#">Noticias</a></li>
-                            <li><a className="hover:text-gray-200" href="#">Contacto</a></li>
+                            <li><a className="hover:text-emerald-400" href="#">Inicio</a></li>
+                            <li><a className="hover:text-emerald-400" href="#sobreNosotros">Sobre Nosotros</a></li>
+                            <li><a className="hover:text-emerald-400" href="#profesores">Profesores</a></li>
+                            <li><a className="hover:text-emerald-400" href="#">Noticias</a></li>
+                            <li><a className="hover:text-emerald-400" href="#">Contacto</a></li>
                         </ul>
 
                         <div className="hidden md:flex space-x-5 items-center">
