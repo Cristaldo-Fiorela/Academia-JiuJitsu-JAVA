@@ -30,7 +30,7 @@ function Header() {
                             <li><a className="hover:text-emerald-400" href="#sobreNosotros">Sobre Nosotros</a></li>
                             <li><a className="hover:text-emerald-400" href="#profesores">Profesores</a></li>
                             <li><a className="hover:text-emerald-400" href="#">Noticias</a></li>
-                            <li><a className="hover:text-emerald-400" href="#">Contacto</a></li>
+                            <li><a className="hover:text-emerald-400" href="#footer">Contacto</a></li>
                         </ul>
 
                         <div className="hidden md:flex space-x-5 items-center">

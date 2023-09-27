@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
             <footer className='bg-emerald-400'>
-                <section className='py-10 flex flex-col justify-around items-center h-96 w-full'>
+                <section className='py-10 flex flex-col justify-around items-center h-96 w-full' id='footer'>
                     <h2 className='text-2xl lg:text-4xl font-bold text-center mx-3'>Unete a nuestra comunidad!</h2>
                     <form className='bg-slate-200 h-60 w-72 sm:w-96 md:w-8/12 lg:w-6/12 xl:w-5/12 md:py-5 mt-5 rounded-lg flex flex-wrap justify-center items-center'>
                         <div className='flex w-full justify-evenly'>
