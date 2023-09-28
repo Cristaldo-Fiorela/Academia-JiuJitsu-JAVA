@@ -1,7 +1,7 @@
 function Noticias() {
     return (
         <>
-            <section className="text-white">
+            <section className="text-white bg-zinc-900 py-10">
                 <h3>Noticias y eventos</h3>
                 <div>
                     <article>
