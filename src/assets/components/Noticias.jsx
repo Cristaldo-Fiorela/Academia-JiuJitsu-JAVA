@@ -1,7 +1,7 @@
 function Noticias() {
     return (
         <>
-            <section className="text-white bg-emerald-500 py-10">
+            <section className="text-white bg-emerald-500 py-10 flex flex-col items-center">
                 <h3 className="text-2xl lg:text-4xl font-bold uppercase">Noticias y eventos</h3>
                 <div>
                     <article>
